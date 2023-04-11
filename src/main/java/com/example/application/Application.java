@@ -19,7 +19,6 @@ import com.vaadin.flow.theme.Theme;
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {
-        List<String> ss = new ArrayList<String>();
         System.out.println("Hallo Stefan.");
         SpringApplication.run(Application.class, args);
     }
